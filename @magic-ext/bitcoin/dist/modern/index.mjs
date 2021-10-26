@@ -1,0 +1,2 @@
+import{Extension as i}from"@magic-sdk/commons";var n;!function(i){i.BitcoinSignTransaction="btc_signTransaction"}(n||(n={}));class t extends i.Internal{constructor(i){super(),this.bitcoinConfig=void 0,this.name="bitcoin",this.config={},this.bitcoinConfig=i,this.config={rpcUrl:i.rpcUrl,chainType:"BITCOIN",options:{network:i.network}}}async signTransaction(i,t){return this.request(this.utils.createJsonRpcRequestPayload(n.BitcoinSignTransaction,[i,t]))}}export{t as BitcoinExtension};
+//# sourceMappingURL=index.mjs.map
